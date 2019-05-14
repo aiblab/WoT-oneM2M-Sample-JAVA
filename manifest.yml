@@ -1,0 +1,7 @@
+---
+applications:
+- name: onem2m-java-sample-app      # 애플리케이션 이름
+  buildpack: java_buildpack    # 빌드팩 이름
+  memory: 1024M                # 애플리케이션 메모리 사이즈
+  instances: 1                   # 애플리케이션 인스턴스 개수
+  path: ./target/wotpaas.sample.app-0.0.1-SNAPSHOT.jar
